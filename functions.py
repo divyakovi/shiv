@@ -79,6 +79,12 @@
 # def sub(**d):
 #     print(d)
 # sub(a=20,b=39)
+def divya(a):
+    return a
+a="the lazy dog ran after a butterfly"
+k=divya(a[::-1])
+print(k)
+
 # sub()
 # def java(**a):
 #     return list(a.keys()),list(a.values())
